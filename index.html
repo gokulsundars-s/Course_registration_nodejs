@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Elective course registration</title>
+    <link rel="icon" type="image/x-icon" href="F:\SEM - 4\WT Lab\EXP - 6\Sources\icon.png">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <img src="F:\SEM - 4\WT Lab\EXP - 6\Sources\KEC 1.png" alt="logo1" style="height: 10%; width: 8%; padding-left : 1px">
+        <div class="content">
+            <h1 style="font-family:'Archivo'; font-size:30px; font-weight: 800; padding-top: 10px">KONGU ENGINEERING COLLEGE</h1>
+            <h5 style="font-family:'Archivo'; font-size:12px; font-weight: 700; line-height: 0.3;">(AUTUNOMOUS)</h5>
+            <h3 style="font-family:'Archivo'; font-size:18px; font-weight: 800; line-height: 0.3;">PERUNDURAI, ERODE - 638060.</h3>
+        </div>
+        <img src="F:/SEM - 4/WT Lab/EXP - 6/Sources/KEC 2.png" alt="logo2" style="height: 10%; width: 10%; padding-top: 4px">
+    </div>
+
+    <h1 style="color:rgb(26, 0, 53); text-align: center; font-family:'Crotah free version'; font-size:30px; font-weight: 800;">ELECTIVE COURSE REGISTRATION</h1><br><br>
+    
+    
+    <form action="http://localhost:5000/login" method="get" name="signupform">
+        <div class = "login">
+            <input type="text" placeholder="Name" class="mail" id="inp1" name="name"><br><br>
+            <input type="text" placeholder="Roll number" class="mail" id="inp2" name="rollnumber"><br><br>
+            <input type="text" placeholder="Department" class="mail" id="inp3" name="department"><br><br>
+            <input type="text" placeholder="Course code" class="pword" id="inp4" name="ccode"><br><br>
+            <input type="text" placeholder="Course name" class="pword" id="inp5" name="cname"><br><br><br>
+            <div>
+                <button class = "lbutton" type="submit" onclick="validate()">REGISTER</button>
+                <button class = "lbutton" type="reset">CLEAR</button>
+            </div><br>
+        </div>
+    </form>
